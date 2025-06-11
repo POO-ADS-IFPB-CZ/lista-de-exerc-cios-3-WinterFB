@@ -1,1 +1,3 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/T2vUNN1h)
+4) Em tipos primitivos, o array armazena o valor diretamente e aloca apenas a quantidade informada do espaço do array na memória. Já em arrays de objetos, ele armazena referências, ponteiros. </br>
+a) Em primitivos, ele armazena X valores 0 ou null. Em objetos, ele armazena referências para os objetos, e não os objetos em si.</br>
+b) O principal cuidado é inicializar a variável com os valores antes, pois caso  tente acessar um valor que não tenha sido inicializado (null), ele tentará acessar uma posição na memória que não existe, o que dará erro. Ou pelo menos verificar se o valor é null antes.
