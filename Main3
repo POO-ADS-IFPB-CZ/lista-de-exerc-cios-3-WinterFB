@@ -1,0 +1,20 @@
+import java.util.Scanner;
+import java.util.Arrays;
+
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Informe o número: ");
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
+        int[] numerosFib = new int[num];
+        numerosFib[0] = 0;
+        numerosFib[1] = 1;
+
+        int soma = 1;
+        for (int i = 2; i < num; i++){
+            numerosFib[i] = numerosFib[i-1] + numerosFib[i-2];
+        }
+
+        System.out.println(Arrays.toString(numerosFib));
+    }
+}
